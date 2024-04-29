@@ -1,0 +1,12 @@
+{
+  "name": "reserva",
+  "version": "1.0.0",
+  "description": "_Linguagem de programação_  - _**CARLPRO**_",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
