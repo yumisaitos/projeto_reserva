@@ -1,0 +1,13 @@
+import routes from './routers'
+import dotenv from 'dotenv'
+
+dotenv.config()
+
+class App {
+    constructor (){
+        this.server = express()
+        this.connect()
+        this.middlewares()
+        this.routes()
+    }
+}
