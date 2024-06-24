@@ -1,7 +1,24 @@
-# Treinando comandos do git 
+# Projeto Reserva
 
-### Disciplina
+## Projeto prático API Restful Nodejs e MongoDB
 
-_Linguagem de programação_  - _**CARLPRO**_
+### Desenvolvido em Node.js (versão 20.10)
 
-treinamento de comandos git como parte de aprendizado de Franework **Node.JS**
+Projeto criado na Linguagem de Programação
+Curso: Técnico de Informática Integrado ao Ensino Médio
+Instituto federal de São Paulo - Campus Caraguatatuba
+
+#### Pacotes Utilizados
+
+* nodemon
+* express
+* sucrase
+* dotenv
+* mongoose
+* multer
+* yup
+* cors
+
+#### Banco de Dados: MongoDB
+
+Autor: **Denny Paulista Azevedo Filho**

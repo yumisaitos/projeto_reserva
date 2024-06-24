@@ -1,6 +1,6 @@
-import { Schema, model } from "mongoose"
+import { Schema, model } from 'mongoose'
 
-const ReservaSchema = new Schema({
+const ReserveSchema = new Schema({
     date: String,
     user: {
         type: Schema.Types.ObjectId,
@@ -10,6 +10,6 @@ const ReservaSchema = new Schema({
         type: Schema.Types.ObjectId,
         ref: 'House'
     }
-})
+});
 
 export default model('Reserve', ReserveSchema)

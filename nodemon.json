@@ -1,13 +1,5 @@
-import routes from './routers'
-import dotenv from 'dotenv'
-
-dotenv.config()
-
-class App {
-    constructor (){
-        this.server = express()
-        this.connect()
-        this.middlewares()
-        this.routes()
+{
+    "execMap": {
+        "js": "node -r sucrase/register"
     }
 }
